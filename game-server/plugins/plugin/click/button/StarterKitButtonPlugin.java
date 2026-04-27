@@ -75,7 +75,7 @@ public class StarterKitButtonPlugin extends PluginContext {
                 player.bank.shift();
             }*/
 
-            player.clanTag = "Help";
+            player.clanTag = "";
             player.setVisible(true);
             player.newPlayer = false;
             player.needsStarter = false;

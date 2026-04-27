@@ -49,16 +49,42 @@ public class Hunter extends Skill {
                 case 25029:
                     player.action.execute(new PuroPuroAction(player, event.getObject()));
                     return true;
-                case 19187:
-                case 19175:
+                case 9344:
+                case 9345:
                     TrapManager.dismantle(player, event.getObject());
                     return true;
-                case 19191:
-                case 19189:
-                case 19180:
-                case 19184:
-                case 19182:
-                case 19178:
+                case 9373:
+                case 9374:
+                case 9377:
+                case 9379:
+                case 9375:
+                case 9376:
+                case 9378:
+                case 9348:
+                case 9380:
+                case 9381:
+                case 9382:
+                case 9383:
+                case 9384:
+                case 9385:
+                case 9386:
+                case 9387:
+                case 9388:
+                case 9389:
+                case 9390:
+                case 9391:
+                case 9392:
+                case 9393:
+                case 9394:
+                case 9395:
+                case 9396:
+                case 9397:
+                case 2025:
+                case 2026:
+                case 2028:
+                case 2029:
+                case 721:
+                case 26457:
                     TrapManager.lootTrap(player, event.getObject());
                     return true;
             }
@@ -98,10 +124,10 @@ public class Hunter extends Skill {
         if (event.getOpcode() == 0) {
             switch (item.getId()) {
                 case 10006:
-                    TrapManager.layTrap(player, new SnareTrap(new CustomGameObject(19175, new Position(player.getX(), player.getY(), player.getHeight())), Trap.TrapState.SET, 200, player));
+                    TrapManager.layTrap(player, new SnareTrap(new CustomGameObject(9345, new Position(player.getX(), player.getY(), player.getHeight())), Trap.TrapState.SET, 200, player));
                     return true;
                 case 10008:
-                    TrapManager.layTrap(player, new BoxTrap(new CustomGameObject(19187, new Position(player.getX(), player.getY(), player.getHeight())), Trap.TrapState.SET, 200, player));
+                    TrapManager.layTrap(player, new BoxTrap(new CustomGameObject(9380, new Position(player.getX(), player.getY(), player.getHeight())), Trap.TrapState.SET, 200, player));
                     return true;
             }
         }

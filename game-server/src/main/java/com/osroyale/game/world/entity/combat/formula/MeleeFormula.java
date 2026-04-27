@@ -17,7 +17,7 @@ public final class MeleeFormula implements FormulaModifier<Mob> {
         FightType fightType = attacker.getCombat().getFightType();
         int level = attacker.skills.getLevel(Skill.ATTACK);
         int effectiveAccuracy = attacker.getCombat().modifyAttackLevel(defender, level);
-        return 8 + effectiveAccuracy + fightType.getStyle().getAccuracyIncrease();
+        return effectiveAccuracy + fightType.getStyle().getAccuracyIncrease();
     }
 
     @Override

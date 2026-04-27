@@ -46,8 +46,7 @@ public abstract class HarvestablePatch extends FarmingPatch {
             return false;
         }
 
-        if (!player.inventory.contains(FarmingConstants.SECATEURS) && !player.inventory.contains(FarmingConstants.MAGIC_SECATEURS) &&
-        !player.equipment.contains(FarmingConstants.MAGIC_SECATEURS)) {
+        if (!player.inventory.contains(FarmingConstants.SECATEURS)) {
             player.dialogueFactory.sendStatement("You need secateurs to harvest here.").execute();
             return true;
         }
@@ -152,7 +151,7 @@ public abstract class HarvestablePatch extends FarmingPatch {
     @Override
     protected void resetPatch() {
         super.resetPatch();
-        harvest = 0;
+        harvest = 2;
     }
 
     @Override

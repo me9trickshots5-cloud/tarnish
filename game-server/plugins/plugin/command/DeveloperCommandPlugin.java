@@ -746,7 +746,7 @@ public class DeveloperCommandPlugin extends CommandExtension {
                 double attackRoll = rollOffensive(player, npc, type.getFormula());
                 double defenceRoll = rollDefensive(player, npc, type.getFormula());
                 double chance = attackRoll / (attackRoll + defenceRoll);
-                double accuracy = (int) (chance * 10000) / 100.0;
+                double accuracy = (int) (chance * 100) / 10.0;
 
                 player.message("");
                 player.message("You have <col=FF0000>" + accuracy + "%</col> accuracy against " + npc.getName() + ".");
@@ -754,9 +754,9 @@ public class DeveloperCommandPlugin extends CommandExtension {
                 player.message("Attack roll: <col=FF0000>" + (int) attackRoll + "</col>  ---  Defence roll: <col=FF0000>" + (int) defenceRoll);
 
                 String rolls = "";
-                rolls += "accuracy: <col=FF0000>" + player.getCombat().modifyAccuracy(npc, 100) + "%</col>  ---  ";
-                rolls += "defence: <col=FF0000>" + player.getCombat().modifyDefensive(npc, 100) + "%</col>  --- ";
-                rolls += "damage: <col=FF0000>" + player.getCombat().modifyDamage(npc, 100) + "%";
+                rolls += "accuracy: <col=FF0000>" + player.getCombat().modifyAccuracy(npc, 1) + "%</col>  ---  ";
+                rolls += "defence: <col=FF0000>" + player.getCombat().modifyDefensive(npc, 1) + "%</col>  --- ";
+                rolls += "damage: <col=FF0000>" + player.getCombat().modifyDamage(npc, 1) + "%";
 
                 String levels = "";
                 levels += "attack: <col=FF0000>" + player.getCombat().modifyAttackLevel(npc, 100) + "%</col> -- ";
@@ -787,7 +787,7 @@ public class DeveloperCommandPlugin extends CommandExtension {
                     double attackRoll = rollOffensive(player, other, type.getFormula());
                     double defenceRoll = rollDefensive(player, other, type.getFormula());
                     double chance = attackRoll / (attackRoll + defenceRoll);
-                    double accuracy = (int) (chance * 10000) / 100.0;
+                    double accuracy = (int) (chance * 100) / 10.0;
 
                     player.send(new SendMessage(""));
                     player.send(new SendMessage("You have <col=FF0000>" + accuracy + "%</col> accuracy against " + other.getName() + "."));
@@ -795,9 +795,9 @@ public class DeveloperCommandPlugin extends CommandExtension {
                     player.send(new SendMessage("Attack roll: <col=FF0000>" + (int) attackRoll + "</col>  ---  Defence roll: <col=FF0000>" + (int) defenceRoll));
 
                     String rolls = "";
-                    rolls += "accuracy: <col=FF0000>" + player.getCombat().modifyAccuracy(other, 100) + "%</col>  ---  ";
-                    rolls += "defencive: <col=FF0000>" + player.getCombat().modifyDefensive(other, 100) + "%</col>  --- ";
-                    rolls += "damage: <col=FF0000>" + player.getCombat().modifyDamage(other, 100) + "%";
+                    rolls += "accuracy: <col=FF0000>" + player.getCombat().modifyAccuracy(other, 1) + "%</col>  ---  ";
+                    rolls += "defencive: <col=FF0000>" + player.getCombat().modifyDefensive(other, 1) + "%</col>  --- ";
+                    rolls += "damage: <col=FF0000>" + player.getCombat().modifyDamage(other, 1) + "%";
 
                     String levels = "";
                     levels += "attack: <col=FF0000>" + player.getCombat().modifyAttackLevel(other, 100) + "%</col> -- ";

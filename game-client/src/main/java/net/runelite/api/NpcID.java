@@ -8735,6 +8735,7 @@ public final class NpcID
 	public static final int DEATH_9855 = 9855;
 	public static final int GRAVE = 9856;
 	public static final int GRAVE_9857 = 9857;
+    public static final int CHAOS_DRUID_DROPS = 10291;
 	public static final int SQUIRE_10368 = 10368;
 	public static final int BOBAWU = 10369;
 	public static final int MARTEN = 10370;

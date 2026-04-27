@@ -81,9 +81,13 @@ public class ItemFirstClickPlugin extends PluginContext {
             }
             case 405: {
                 int coins = Utility.random(50000, 75000);
+                int chance = Utility.random(10, 50);
+                int bloodmoney = Utility.random(2000, 5200);
                 player.inventory.remove(405, 1);
                 player.inventory.add(995, coins);
-                player.message(true, "You found " + Utility.formatDigits(coins) + " coins inside of the casket!");
+                player.inventory.add(454, chance);
+                player.inventory.add(13307, bloodmoney);
+                player.message(true, STR."You found \{Utility.formatDigits(coins)} coins and\{Utility.formatDigits(bloodmoney)} Bloodmoney and some Coal!");
                 AchievementHandler.activate(player, AchievementKey.CASKET);
                 break;
             }

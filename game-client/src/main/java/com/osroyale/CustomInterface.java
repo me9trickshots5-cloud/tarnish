@@ -803,7 +803,7 @@ public class CustomInterface extends RSInterface {
     private static void bankVault(TextDrawingArea[] tda) {
         RSInterface rsint = addInterface(56300);
         addSprite(56301, 862);
-        addText(56302, "Tarnish Bank Vault", tda, 2, 0xFFA500, true, true);
+        addText(56302, "Nomads Bank Vault", tda, 2, 0xFFA500, true, true);
         addHoverButton(56303, 252, 21, 21, "Close", 250, 56304, 3);
         addHoveredButton(56304, 253, 21, 21, 56305);
         addText(56306, "This is your bank vault, here you can deposit", tda, 0, 0xFFA500, true, true);
@@ -846,7 +846,7 @@ public class CustomInterface extends RSInterface {
     private static void achievementInterface(TextDrawingArea[] tda) {
         RSInterface rsint = addInterface(56800);
         addSprite(56801, 861);
-        addText(56802, "Tarnish Achievements", tda, 2, 0xFFA500, true, true);
+        addText(56802, "Nomads Achievements", tda, 2, 0xFFA500, true, true);
         addHoverButton(56803, 252, 21, 21, "Close", -1, 56804, 1);
         addHoveredButton(56804, 253, 21, 21, 56805);
         addText(56806, "Desciption:", tda, 3, 0xFFA500, true, true);
@@ -1125,13 +1125,13 @@ public class CustomInterface extends RSInterface {
         addHoveredButton(21308, 780, 172, 28, 21309);
         //addHead(21310, 35, 35, 2500);
         addHead(21342, 2, 306, 588, 35, 35, 900);
-        addText(21311, "WELCOME TO TARNISH!", 0xE9EBC5, true, true, 52, TDA, 3);
+        addText(21311, "WELCOME TO Nomads Paradise!", 0xE9EBC5, true, true, 52, TDA, 3);
         addText(21312, "CLICK HERE TO PLAY", 0xFF4545, true, true, 52, TDA, 3);
         addText(21313, "View Latest Announcement", 0xC9C2BF, true, true, 52, TDA, 1);
         addText(21314, "View Latest Update", 0xC9C2BF, true, true, 52, TDA, 1);
-        addText(21315, "Tarnish welcomes you!", 0x000000, true, false, 52, TDA, 0);
-        addText(21316, "Tarnish welcomes you!", 0x000000, true, false, 52, TDA, 0);
-        addText(21317, "Tarnish welcomes you!", 0x000000, true, false, 52, TDA, 0);
+        addText(21315, "Nomads Paradise welcomes you!", 0x000000, true, false, 52, TDA, 0);
+        addText(21316, "Nomads Paradise welcomes you!", 0x000000, true, false, 52, TDA, 0);
+        addText(21317, "Nomads Paradise welcomes you!", 0x000000, true, false, 52, TDA, 0);
         addText(21318, "You last logged in from 127.0.0.1", 0xEBCD96, true, true, 52, TDA, 0);
         addMarqueeText(21319, 0xEBCD96, true, 52, 3, TDA);
         addText(21320, "Bank pin line 1", 0xC9C2BF, false, true, 52, TDA, 0);
@@ -4601,7 +4601,7 @@ public class CustomInterface extends RSInterface {
         addSprite(29401, 63);
         addSprite(29402, 64);
         addText(29403, Configuration.NAME, tda, 2, 0xC47423, false, true);
-        addHoverText(29404, "www.tarnishps.com", "Visit website", tda, 3, 0xC47423, true, true, 168);
+        addHoverText(29404, "https://discord.gg/NWG6XqRtpG", "Visit website", tda, 3, 0xC47423, true, true, 168);
         addHoverButton(29408, 292, 18, 18, "View Achievements Tab", -1, 29409, 1);
         addHoveredButton(29409, 293, 18, 18, 29410);
         addHoverButton(29411, 71, 16, 16, "Refresh Quest Tab", -1, 29412, 1);
@@ -4722,7 +4722,7 @@ public class CustomInterface extends RSInterface {
         addHoverButton(35411, 292, 18, 18, "View Achievements Tab", -1, 35412, 1);
         addHoveredButton(35412, 293, 18, 18, 35413);
 
-        addHoverText(35414, "www.tarnishps.com", "Visit website", tda, 3, 0xC47423, true, true, 168);
+        addHoverText(35414, "https://discord.gg/NWG6XqRtpG", "Visit website", tda, 3, 0xC47423, true, true, 168);
 
         rsinterface.totalChildren(11);
         rsinterface.child(0, 35401, -5, 35);

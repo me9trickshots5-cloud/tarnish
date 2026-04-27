@@ -11,9 +11,9 @@ public class TrapExecution {
             if (npc == null || !npc.isVisible()) {
                 continue;
             }
-            if (trap instanceof BoxTrap && npc.id != 5079 && npc.id != 5080)
+            if (trap instanceof BoxTrap && npc.id != 2910 && npc.id != 2911 && npc.id != 2912)
                 continue;
-            if (trap instanceof SnareTrap && (npc.id == 5079 || npc.id == 5080))
+            if (trap instanceof SnareTrap && (npc.id == 5552 || npc.id == 5550 || npc.id == 5549 || npc.id == 5548 || npc.id == 5551))
                 continue;
             if (npc.getPosition().isWithinDistance(trap.getGameObject().getPosition(), 1)) {
                 if (Utility.random(100) < successFormula(trap)) {

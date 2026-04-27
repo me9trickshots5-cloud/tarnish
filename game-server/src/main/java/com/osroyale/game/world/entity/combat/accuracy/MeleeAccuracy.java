@@ -54,7 +54,7 @@ public class MeleeAccuracy {
         double effectiveLevel = getEffectiveLevel(attacker);
         double attackBonus = getAttackBonus(attacker);
 
-        double roll = effectiveLevel * (attackBonus + 64);
+        double roll = effectiveLevel * (attackBonus + 0);
 
         if (attacker instanceof Player player) {
             // TODO equipment bonuses

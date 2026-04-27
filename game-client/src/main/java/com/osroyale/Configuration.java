@@ -8,16 +8,16 @@ package com.osroyale;
  */
 public final class Configuration {
 
-    public static final String LIVE_GAME_ADDRESS = "game.tarnishps.com";
+    public static final String LIVE_GAME_ADDRESS = "26.51.244.208";
     public static final int LIVE_GAME_PORT = 43594;
 
-    public static final String LIVE_CACHE_ADDRESS = "cache.tarnishps.com";
+    public static final String LIVE_CACHE_ADDRESS = "26.51.244.208";
     public static final int LIVE_CACHE_PORT = 43595;
 
-    public static final String DEV_GAME_ADDRESS = "localhost";
+    public static final String DEV_GAME_ADDRESS = "26.51.244.208";
     public static final int DEV_GAME_PORT = 43594;
 
-    public static final String DEV_CACHE_ADDRESS = "localhost";
+    public static final String DEV_CACHE_ADDRESS = "26.51.244.208";
     public static final int DEV_CACHE_PORT = 43595;
 
     /**
@@ -59,7 +59,7 @@ public final class Configuration {
     /**
      * The name of the client.
      */
-    public final static String NAME = "Tarnish";
+    public final static String NAME = "Nomads Paradise RSPS";
 
     /**
      * The cache file name.

@@ -25,7 +25,7 @@ import java.util.List;
 public class TeleportHandler {
 
     /** Holds the teleport titles names. */
-    private static final String[] TITLES = {"Favorites", "Minigames", "Skilling", "Monster Killing", "Player Killing", "Boss Killing"};
+    private static final String[] TITLES = {"Favorites", "Minigames", "Skilling", "Monster Killing", "Towns", "Boss Killing"};
 
     /** Opens the teleport itemcontainer. */
     public static void open(Player player) {

@@ -14,7 +14,7 @@ public final class RangedFormula implements FormulaModifier<Mob> {
         FightType fightType = attacker.getCombat().getFightType();
         int level = attacker.skills.getLevel(Skill.RANGED);
         int effectiveAccuracy = attacker.getCombat().modifyRangedLevel(defender, level);
-        return 8 + effectiveAccuracy + fightType.getStyle().getAccuracyIncrease();
+        return effectiveAccuracy + fightType.getStyle().getAccuracyIncrease();
     }
 
     @Override

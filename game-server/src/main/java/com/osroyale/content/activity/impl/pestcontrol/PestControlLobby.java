@@ -29,7 +29,7 @@ public class PestControlLobby extends LobbyManager {
     private static final int GAME_COOLDOWN = 1000;
 
     /** The minimum amount of players required to start. */
-    private static final int MINIMUM_PLAYERS = 3;
+    private static final int MINIMUM_PLAYERS = 1;
 
     /** The position inside the pest control boat. */
     private static final Position INSIDE_BOAT_POSITION = new Position(2661, 2639);

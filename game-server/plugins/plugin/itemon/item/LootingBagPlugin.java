@@ -8,7 +8,6 @@ import com.osroyale.game.plugin.PluginContext;
 import com.osroyale.game.world.entity.mob.player.Player;
 import com.osroyale.game.world.entity.mob.player.PlayerRight;
 import com.osroyale.game.world.items.Item;
-import com.osroyale.game.world.position.Area;
 import com.osroyale.net.packet.out.SendMessage;
 
 public class LootingBagPlugin extends PluginContext {
@@ -107,7 +106,7 @@ public class LootingBagPlugin extends PluginContext {
 
     @Override
     protected boolean onPickupItem(Player player, PickupItemEvent event) {
-        if (player.inventory.contains(OPENED_ID) && Area.inWilderness(player)) {
+        if (player.inventory.contains(OPENED_ID)) {
             final Item pickup = event.getItem();
             player.lootingBag.deposit(pickup, pickup.getAmount());
             return true;

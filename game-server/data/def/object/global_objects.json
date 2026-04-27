@@ -22,6 +22,17 @@
     }
   },
   {
+    "id": 10822,
+    "name": "Yew Tree",
+    "type": 10,
+    "rotation": "NORTH",
+    "position": {
+      "x": 2840,
+      "y": 3437,
+      "height": 0
+    }
+  },
+  {
     "id": 9034,
     "name": "Mahogany Tree",
     "type": 10,
@@ -51,6 +62,28 @@
     "position": {
       "x": 1801,
       "y": 3578,
+      "height": 0
+    }
+  },
+  {
+    "id": 10832,
+    "name": "Maple Tree",
+    "type": 10,
+    "rotation": "NORTH",
+    "position": {
+      "x": 2863,
+      "y": 3429,
+      "height": 0
+    }
+  },
+  {
+    "id": 1276,
+    "name": "Tree",
+    "type": 10,
+    "rotation": "NORTH",
+    "position": {
+      "x": 2845,
+      "y": 3434,
       "height": 0
     }
   },
@@ -451,6 +484,39 @@
     }
   },
   {
+    "id": 10583,
+    "name": "Bank (Catherby Fishing)",
+    "type": 10,
+    "rotation": "EAST",
+    "position": {
+      "x": 2855,
+      "y":  3435,
+      "height": 0
+    }
+  },
+  {
+    "id": 10583,
+    "name": "Bank (Abandened Mine)",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3456,
+      "y":  3235,
+      "height": 0
+    }
+  },
+  {
+    "id": 10583,
+    "name": "Bank (Abandened Mine)",
+    "type": 10,
+    "rotation": "NORTH",
+    "position": {
+      "x": 3439,
+      "y":  3208,
+      "height": 0
+    }
+  },
+  {
     "id": 11363,
     "name": "ore DZ",
     "type": 10,
@@ -652,6 +718,17 @@
     "id": 16469,
     "name": "furnace",
     "type": 10,
+    "rotation": "NORTH",
+    "position": {
+      "x": 3454,
+      "y":  3242,
+      "height": 0
+    }
+  },
+  {
+    "id": 16469,
+    "name": "furnace",
+    "type": 10,
     "rotation": "WEST",
     "position": {
       "x": 2470,
@@ -804,6 +881,17 @@
   },
   {
     "id": 2097,
+    "name": "anvil mine",
+    "type": 10,
+    "rotation": "EAST",
+    "position": {
+      "x": 3451,
+      "y": 3240,
+      "height": 0
+    }
+  },
+  {
+    "id": 2097,
     "name": "anvil home",
     "type": 10,
     "rotation": "EAST",
@@ -946,6 +1034,28 @@
     }
   },
   {
+    "id": 10820,
+    "name": "oak tree",
+    "type": 10,
+    "rotation": "NORTH",
+    "position": {
+      "x": 2854,
+      "y": 3429,
+      "height": 0
+    }
+  },
+  {
+    "id": 10831,
+    "name": "Willow tree",
+    "type": 10,
+    "rotation": "NORTH",
+    "position": {
+      "x": 2850,
+      "y": 3434,
+      "height": 0
+    }
+  },
+  {
     "id": 13607,
     "name": "hermans desk",
     "type": 10,
@@ -1012,7 +1122,7 @@
     }
   },
   {
-    "id": 26254,
+    "id": 10529,
     "name": "Donator Deposit (giant mole)",
     "type": 10,
     "rotation": "WEST",
@@ -1023,7 +1133,7 @@
     }
   },
   {
-    "id": 26254,
+    "id": 10529,
     "name": "Donator Deposit (wyverns)",
     "type": 10,
     "rotation": "EAST",
@@ -1034,7 +1144,7 @@
     }
   },
   {
-    "id": 26254,
+    "id": 10529,
     "name": "Donator Deposit (wc guild)",
     "type": 10,
     "rotation": "SOUTH",
@@ -1045,7 +1155,7 @@
     }
   },
   {
-    "id": 26254,
+    "id": 10529,
     "name": "Donator Deposit (mining varrock)",
     "type": 10,
     "rotation": "EAST",
@@ -1056,7 +1166,7 @@
     }
   },
   {
-    "id": 26254,
+    "id": 10529,
     "name": "Donator Deposit (DZ TREES)",
     "type": 10,
     "rotation": "NORTH",
@@ -1078,13 +1188,24 @@
     }
   },
   {
-    "id": 26254,
+    "id": 10529,
     "name": "Donator Deposit (fishing)",
     "type": 10,
     "rotation": "NORTH",
     "position": {
       "x": 2837,
       "y": 3437,
+      "height": 0
+    }
+  },
+  {
+    "id": 10529,
+    "name": "Donator Deposit (Rune Mining)",
+    "type": 10,
+    "rotation": "NORTH",
+    "position": {
+      "x": 2911,
+      "y": 4830,
       "height": 0
     }
   },
@@ -1100,6 +1221,105 @@
     }
   },
   {
+    "id": 11365,
+    "name": "Iron Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3456,
+      "y": 3229,
+      "height": 0
+    }
+  },
+  {
+    "id": 11365,
+    "name": "Iron Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3452,
+      "y": 3228,
+      "height": 0
+    }
+  },
+  {
+    "id": 11365,
+    "name": "Iron Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3451,
+      "y": 3228,
+      "height": 0
+    }
+  },
+  {
+    "id": 11365,
+    "name": "Iron Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3455,
+      "y": 3227,
+      "height": 0
+    }
+  },
+  {
+    "id": 11365,
+    "name": "Iron Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3452,
+      "y": 3227,
+      "height": 0
+    }
+  },
+  {
+    "id": 11365,
+    "name": "Iron Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3452,
+      "y": 3224,
+      "height": 0
+    }
+  },
+  {
+    "id": 11365,
+    "name": "Iron Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3454,
+      "y": 3224,
+      "height": 0
+    }
+  },
+  {
+    "id": 11365,
+    "name": "Iron Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3455,
+      "y": 3224,
+      "height": 0
+    }
+  },
+  {
+    "id": 11365,
+    "name": "Iron Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3454,
+      "y": 3222,
+      "height": 0
+    }
+  },
+  {
     "id": 11367,
     "name": "Coal Ore",
     "type": 10,
@@ -1107,6 +1327,270 @@
     "position": {
       "x": 1813,
       "y": 3567,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3445,
+      "y": 3208,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3446,
+      "y": 3209,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3444,
+      "y": 3209,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3443,
+      "y": 3209,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3446,
+      "y": 3208,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3446,
+      "y": 3211,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3447,
+      "y": 3211,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3447,
+      "y": 3207,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3448,
+      "y": 3210,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3449,
+      "y": 3212,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3449,
+      "y": 3206,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3450,
+      "y": 3211,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3450,
+      "y": 3210,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3450,
+      "y": 3207,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3453,
+      "y": 3231,
+      "height": 0
+    }
+  },
+  {
+    "id": 11367,
+    "name": "Coal Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3455,
+      "y": 3232,
+      "height": 0
+    }
+  },
+  {
+    "id": 11360,
+    "name": "Tin Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3455,
+      "y": 3237,
+      "height": 0
+    }
+  },
+  {
+    "id": 11360,
+    "name": "Tin Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3456,
+      "y": 3237,
+      "height": 0
+    }
+  },
+  {
+    "id": 11360,
+    "name": "Tin Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3456,
+      "y": 3238,
+      "height": 0
+    }
+  },
+  {
+    "id": 11360,
+    "name": "Tin Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3457,
+      "y": 3236,
+      "height": 0
+    }
+  },
+  {
+    "id": 10943,
+    "name": "Copper Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3449,
+      "y": 3234,
+      "height": 0
+    }
+  },
+  {
+    "id": 10943,
+    "name": "Copper Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3450,
+      "y": 3236,
+      "height": 0
+    }
+  },
+  {
+    "id": 10943,
+    "name": "Copper Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3450,
+      "y": 3235,
+      "height": 0
+    }
+  },
+  {
+    "id": 10943,
+    "name": "Copper Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3451,
+      "y": 3235,
       "height": 0
     }
   },
@@ -1122,6 +1606,39 @@
     }
   },
   {
+    "id": 11371,
+    "name": "Gold Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3456,
+      "y": 3220,
+      "height": 0
+    }
+  },
+  {
+    "id": 11371,
+    "name": "Gold Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3448,
+      "y": 3224,
+      "height": 0
+    }
+  },
+  {
+    "id": 11371,
+    "name": "Gold Ore",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3450,
+      "y": 3222,
+      "height": 0
+    }
+  },
+  {
     "id": 11380,
     "name": "Gem Rock",
     "type": 10,
@@ -1129,6 +1646,50 @@
     "position": {
       "x": 1812,
       "y": 3564,
+      "height": 0
+    }
+  },
+  {
+    "id": 11380,
+    "name": "Gem Rock",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3450,
+      "y": 3220,
+      "height": 0
+    }
+  },
+  {
+    "id": 11380,
+    "name": "Gem Rock",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3445,
+      "y": 3218,
+      "height": 0
+    }
+  },
+  {
+    "id": 11380,
+    "name": "Gem Rock",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3446,
+      "y": 3215,
+      "height": 0
+    }
+  },
+  {
+    "id": 11380,
+    "name": "Gem Rock",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3441,
+      "y": 3215,
       "height": 0
     }
   },
@@ -1144,6 +1705,94 @@
     }
   },
   {
+    "id": 11373,
+    "name": "Mithril Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3434,
+      "y": 3220,
+      "height": 0
+    }
+  },
+  {
+    "id": 11373,
+    "name": "Mithril Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3435,
+      "y": 3221,
+      "height": 0
+    }
+  },
+  {
+    "id": 11373,
+    "name": "Mithril Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3436,
+      "y": 3217,
+      "height": 0
+    }
+  },
+  {
+    "id": 11373,
+    "name": "Mithril Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3437,
+      "y": 3216,
+      "height": 0
+    }
+  },
+  {
+    "id": 11373,
+    "name": "Mithril Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3438,
+      "y": 3219,
+      "height": 0
+    }
+  },
+  {
+    "id": 11373,
+    "name": "Mithril Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3439,
+      "y": 3217,
+      "height": 0
+    }
+  },
+  {
+    "id": 11373,
+    "name": "Mithril Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3449,
+      "y": 3232,
+      "height": 0
+    }
+  },
+  {
+    "id": 11373,
+    "name": "Mithril Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3449,
+      "y": 32353449,
+      "height": 0
+    }
+  },
+  {
     "id": 11375,
     "name": "Adamanite Ore",
     "type": 10,
@@ -1151,6 +1800,83 @@
     "position": {
       "x": 1811,
       "y": 3571,
+      "height": 0
+    }
+  },
+  {
+    "id": 11375,
+    "name": "Adamanite Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3433,
+      "y": 3210,
+      "height": 0
+    }
+  },
+  {
+    "id": 11375,
+    "name": "Adamanite Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3434,
+      "y": 3212,
+      "height": 0
+    }
+  },
+  {
+    "id": 11375,
+    "name": "Adamanite Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3434,
+      "y": 3209,
+      "height": 0
+    }
+  },
+  {
+    "id": 11375,
+    "name": "Adamanite Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3453,
+      "y": 3219,
+      "height": 0
+    }
+  },
+  {
+    "id": 11375,
+    "name": "Adamanite Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3442,
+      "y": 3218,
+      "height": 0
+    }
+  },
+  {
+    "id": 11375,
+    "name": "Adamanite Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3444,
+      "y": 3212,
+      "height": 0
+    }
+  },
+  {
+    "id": 11375,
+    "name": "Adamanite Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3441,
+      "y": 3209,
       "height": 0
     }
   },
@@ -1166,7 +1892,62 @@
     }
   },
   {
-    "id": 26254,
+    "id": 11377,
+    "name": "Runite Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3437,
+      "y": 3209,
+      "height": 0
+    }
+  },
+  {
+    "id": 11377,
+    "name": "Runite Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3435,
+      "y": 3212,
+      "height": 0
+    }
+  },
+  {
+    "id": 11377,
+    "name": "Runite Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3432,
+      "y": 3211,
+      "height": 0
+    }
+  },
+  {
+    "id": 11377,
+    "name": "Runite Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3432,
+      "y": 3213,
+      "height": 0
+    }
+  },
+  {
+    "id": 11377,
+    "name": "Runite Ore",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 3445,
+      "y": 3214,
+      "height": 0
+    }
+  },
+  {
+    "id": 10529,
     "name": "Donator Deposit (dzone)",
     "type": 10,
     "rotation": "SOUTH",
@@ -1177,7 +1958,7 @@
     }
   },
   {
-    "id": 26254,
+    "id": 10529,
     "name": "Donator Deposit (Puro puro)",
     "type": 10,
     "rotation": "NORTH",
@@ -1188,13 +1969,35 @@
     }
   },
   {
-    "id": 26254,
+    "id": 10529,
     "name": "Donator Deposit (Flax)",
+    "type": 10,
+    "rotation": "SOUTH",
+    "position": {
+      "x": 2737,
+      "y": 3444,
+      "height": 0
+    }
+  },
+  {
+    "id": 170,
+    "name": "Sinister Chest",
     "type": 10,
     "rotation": "NORTH",
     "position": {
-      "x": 2736,
-      "y": 3444,
+      "x": 3091,
+      "y": 3494,
+      "height": 0
+    }
+  },
+  {
+    "id": 15480,
+    "name": "House Portal",
+    "type": 10,
+    "rotation": "WEST",
+    "position": {
+      "x": 3077,
+      "y": 3477,
       "height": 0
     }
   }

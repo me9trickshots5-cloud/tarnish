@@ -24,7 +24,7 @@ import java.util.Optional;
 public class Bank extends ItemContainer {
 
     /** The size of all equipment instances. */
-    public static final int SIZE = 360;
+    public static final int SIZE = 720;
 
     /** The tab amount array. */
     public int[] tabAmounts = new int[10];
@@ -63,7 +63,7 @@ public class Bank extends ItemContainer {
             return;
         }
         noting = false;
-        player.send(new SendString("360", 60018));
+        player.send(new SendString("720", 60018));
         player.attributes.set("BANK_KEY", Boolean.TRUE);
         player.interfaceManager.openInventory(60000, InterfaceConstants.INVENTORY_STORE - 1);
         refresh();

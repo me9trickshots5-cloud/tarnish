@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93026c63-49d6-413e-8362-9604e0544bba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game-server/data/def/monsters-json/10291.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/game-client/tarnish.game-client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/game-server/tarnish.game-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwiftFUP/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SwiftFUP/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwiftFUP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SwiftFUP/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-client/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/game-client/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-client/src/main/java/com/osroyale/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-client/src/main/java/com/osroyale/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-client/src/main/java/com/osroyale/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-client/src/main/java/com/osroyale/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-client/src/main/java/com/osroyale/CustomInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-client/src/main/java/com/osroyale/CustomInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-client/src/main/java/com/osroyale/NpcDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-client/src/main/java/com/osroyale/NpcDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-client/src/main/java/net/runelite/api/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-client/src/main/java/net/runelite/api/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-client/src/main/java/net/runelite/api/MenuEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-client/src/main/java/net/runelite/api/MenuEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-client/src/main/java/net/runelite/api/NpcID.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-client/src/main/java/net/runelite/api/NpcID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-client/src/main/java/net/runelite/client/plugins/hd/HdPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-client/src/main/java/net/runelite/client/plugins/hd/HdPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-client/src/main/resources/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/game-client/src/main/resources/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-client/src/main/resources/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/game-client/src/main/resources/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-client/src/main/resources/net/runelite/client/runelite.properties" beforeDir="false" afterPath="$PROJECT_DIR$/game-client/src/main/resources/net/runelite/client/runelite.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-client/src/main/resources/net/runelite/client/ui/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/game-client/src/main/resources/net/runelite/client/ui/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-client/src/main/resources/net/runelite/http/api/runelite.properties" beforeDir="false" afterPath="$PROJECT_DIR$/game-client/src/main/resources/net/runelite/http/api/runelite.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/equipment/equipment_definitions.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/equipment/equipment_definitions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/item/item_definitions.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/item/item_definitions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/10184.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/10184.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/10202.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/10202.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/10246.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/10246.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/10250.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/10250.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/10268.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/10268.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/10270.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/10270.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/10272.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/10272.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/106.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/106.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/11031.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/11031.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/11738.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/11738.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12021.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12021.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12023.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12023.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12037.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12037.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12039.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12039.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12045.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12045.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12053.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12053.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12055.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12055.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12056.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12056.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12057.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12057.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12058.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12058.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12059.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12059.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12061.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12061.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12063.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12063.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12067.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12067.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12069.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12069.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12071.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12071.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12073.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12073.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12074.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12074.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12085.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12085.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12086.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12086.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12088.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12088.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12089.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12089.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12090.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12090.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12091.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12091.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12092.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12092.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12093.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12093.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12094.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12094.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12097.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12097.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12103.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12103.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12105.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12105.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12107.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12107.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12108.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12108.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12109.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12109.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12110.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12110.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12111.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12111.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12113.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12113.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12114.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12114.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12125.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12125.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12126.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12126.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12127.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12127.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12130.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12130.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12132.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12132.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12134.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12134.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12136.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12136.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12144.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12144.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12147.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12147.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12148.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12148.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12153.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12153.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12154.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12154.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12155.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12155.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12156.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12156.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12158.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12158.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12176.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12176.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12177.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12177.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12181.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12181.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12544.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12544.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12550.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12550.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12566.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12566.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/12570.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/12570.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/14106.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/14106.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/1437.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/1437.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/14938.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/14938.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/14939.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/14939.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/14940.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/14940.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/14941.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/14941.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/15215.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/15215.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/15216.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/15216.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/15217.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/15217.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/15218.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/15218.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/15219.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/15219.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/15220.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/15220.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/15222.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/15222.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/15223.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/15223.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/15224.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/15224.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/15225.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/15225.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/15226.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/15226.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/15241.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/15241.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/15244.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/15244.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/16155.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/16155.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/16242.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/16242.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/16713.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/16713.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/17129.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/17129.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19225.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19225.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19226.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19226.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19291.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19291.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19292.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19292.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19293.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19293.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19295.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19295.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19297.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19297.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19298.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19298.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19734.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19734.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19748.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19748.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19752.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19752.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19772.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19772.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19774.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19774.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19780.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19780.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19784.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19784.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19787.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19787.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19792.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19792.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19794.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19794.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19796.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19796.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19798.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19798.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19801.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19801.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19807.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19807.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19808.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19808.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19813.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19813.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19814.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19814.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19816.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19816.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19835.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19835.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19857.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19857.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19858.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19858.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19862.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19862.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19884.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19884.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/19902.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/19902.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/20429.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/20429.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/20904.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/20904.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/21036.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/21036.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/21892.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/21892.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/22000.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/22000.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/22001.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/22001.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/22443.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/22443.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/22444.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/22444.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/22445.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/22445.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/23135.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/23135.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/23136.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/23136.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/23137.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/23137.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/23140.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/23140.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/23142.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/23142.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/23146.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/23146.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/23156.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/23156.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/23158.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/23158.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/23159.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/23159.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/23162.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/23162.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/23163.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/23163.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/23178.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/23178.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/23179.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/23179.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/24773.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/24773.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2482.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2482.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2484.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2484.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/24882.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/24882.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/250.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/250.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/252.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/252.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/254.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/254.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/25499.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/25499.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/25591.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/25591.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/256.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/256.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/25784.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/25784.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/25787.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/25787.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/258.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/258.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/264.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/264.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/267.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/267.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2677.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2677.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2678.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2678.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2681.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2681.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2682.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2682.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/26943.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/26943.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/26944.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/26944.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2698.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2698.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2699.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2699.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2700.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2700.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2719.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2719.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2722.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2722.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2723.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2723.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2739.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2739.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/27427.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/27427.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2743.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2743.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2792.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2792.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2793.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2793.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2801.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2801.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2803.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2803.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2805.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2805.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2807.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2807.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2809.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2809.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2811.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2811.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2813.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2813.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2815.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2815.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2817.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2817.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2819.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2819.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2821.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2821.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2823.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2823.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2825.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2825.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2827.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2827.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2829.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2829.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2831.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2831.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2833.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2833.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2835.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2835.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2837.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2837.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2839.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2839.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2841.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2841.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2843.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2843.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2845.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2845.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2847.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2847.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2849.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2849.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2851.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2851.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2853.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2853.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2855.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2855.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/2857.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/2857.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3003.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3003.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3139.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3139.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3493.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3493.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3495.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3495.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3512.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3512.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3513.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3513.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3534.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3534.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3556.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3556.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3560.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3560.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3582.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3582.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3596.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3596.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3598.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3598.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3599.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3599.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3601.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3601.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3602.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3602.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3614.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3614.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3615.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3615.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3616.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3616.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3617.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3617.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/3618.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/3618.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/405.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/405.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/453.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/453.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/454.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/454.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/4720.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/4720.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/5269.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/5269.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/7236.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/7236.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/7238.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/7238.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/7241.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/7241.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/7258.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/7258.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/7262.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/7262.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/7278.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/7278.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/7284.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/7284.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/7298.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/7298.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/7301.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/7301.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/7303.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/7303.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/7937.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/7937.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/8778.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/8778.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/8779.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/8779.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/8780.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/8780.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/8781.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/8781.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/8782.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/8782.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/8783.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/8783.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/9086.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/9086.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/960.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/960.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/961.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/961.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/items-json/99.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/items-json/99.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/monsters-json/304.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/monsters-json/304.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/monsters-json/520.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/monsters-json/520.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/npc/npc_definitions.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/npc/npc_definitions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/npc/npc_drops.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/npc/npc_drops.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/npc/npc_spawns.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/npc/npc_spawns.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/object/global_objects.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/object/global_objects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/object_examines.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/object_examines.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/data/def/store/stores.json" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/data/def/store/stores.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/plugins/plugin/click/button/PresetButtonPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/plugins/plugin/click/button/PresetButtonPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/plugins/plugin/click/button/QuestTabButtonPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/plugins/plugin/click/button/QuestTabButtonPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/plugins/plugin/click/button/SkillGuideButtonPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/plugins/plugin/click/button/SkillGuideButtonPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/plugins/plugin/click/button/SkillSetButtonPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/plugins/plugin/click/button/StarterKitButtonPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/plugins/plugin/click/button/StarterKitButtonPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/plugins/plugin/click/button/TeleportButtonPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/plugins/plugin/click/button/TeleportButtonPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/plugins/plugin/click/item/ItemFirstClickPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/plugins/plugin/click/item/ItemFirstClickPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/plugins/plugin/click/object/DepositBoxPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/plugins/plugin/click/object/DepositBoxPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/plugins/plugin/command/DeveloperCommandPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/plugins/plugin/command/DeveloperCommandPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/plugins/plugin/itemon/item/LootingBagPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/plugins/plugin/itemon/item/LootingBagPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/settings.toml" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/settings.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/activity/impl/pestcontrol/PestControlLobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/activity/impl/pestcontrol/PestControlLobby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/guides/GuideData.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/guides/GuideData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/construction/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/construction/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/farming/FarmingStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/farming/FarmingStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/farming/FarmingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/farming/FarmingState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/farming/patches/DiseasablePatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/farming/patches/DiseasablePatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/farming/patches/HarvestablePatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/farming/patches/HarvestablePatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/farming/patches/impl/HerbPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/farming/patches/impl/HerbPatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/farming/plants/Herb.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/farming/plants/Herb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/hunter/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/hunter/Hunter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/hunter/trap/TrapExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/hunter/trap/TrapExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/hunter/trap/TrapManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/hunter/trap/TrapManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/magic/Magic.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/magic/Magic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/magic/teleport/TeleportType.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/magic/teleport/TeleportType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/slayer/SlayerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/skill/impl/slayer/SlayerTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/teleport/Teleport.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/teleport/Teleport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/teleport/TeleportHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/content/teleport/TeleportHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/fs/cache/decoder/CacheNpcDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/fs/cache/decoder/CacheNpcDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/plugin/PluginContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/plugin/PluginContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/task/impl/PlayerSaveEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/task/impl/PlayerSaveEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/accuracy/MagicAccuracyNpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/accuracy/MagicAccuracyNpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/accuracy/MeleeAccuracy.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/accuracy/MeleeAccuracy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/accuracy/RangeAccuracyNpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/accuracy/RangeAccuracyNpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/attack/FormulaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/attack/FormulaFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/attack/Modifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/attack/Modifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/formula/MagicFormula.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/formula/MagicFormula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/formula/MeleeFormula.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/formula/MeleeFormula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/formula/RangedFormula.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/entity/combat/formula/RangedFormula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/items/containers/bank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/items/containers/bank/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/items/containers/impl/LootingBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-server/src/main/java/com/osroyale/game/world/items/containers/impl/LootingBag.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/game-client">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/game-server">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tarnish" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tarnish" type="f1a62948:ProjectNode" />
+                <item name="game-client" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tarnish" type="f1a62948:ProjectNode" />
+                <item name="game-client" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tarnish" type="f1a62948:ProjectNode" />
+                <item name="game-client" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tarnish" type="f1a62948:ProjectNode" />
+                <item name="game-server" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tarnish" type="f1a62948:ProjectNode" />
+                <item name="game-server" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tarnish" type="f1a62948:ProjectNode" />
+                <item name="game-server" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.14.2-bin/2pb3mgt1p815evrl3weanttgr/gradle-8.14.2" javaHome="$PROJECT_DIR$/../../../../Program Files/Java/jdk-11" gradleVersion="8.14.2" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="37aw5PxRlfPisCUK6qDP0YDvUCJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Batch.gradlew.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Nomads RsPs Server:game-client [shadowJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Run Client.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Run Server.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.SwiftFUP-client-3.7.1.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.allatori-annotations.jar.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jesse/Desktop/Nomads RsPs Server&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Gradle.Run Server">
+    <configuration name="gradlew" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="tarnish" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="./SwiftFUP" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="gradlew.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nomads RsPs Server:game-client [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/game-client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="shadowJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SwiftFUP-client-3.7.1.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/game-client/libs/SwiftFUP-client-3.7.1.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="allatori-annotations.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/game-client/libs/allatori-annotations.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gradlew" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/SwiftFUP/gradlew" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/SwiftFUP" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/sh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Nomads RsPs Server:game-client [shadowJar]" />
+        <item itemvalue="Shell Script.gradlew" />
+        <item itemvalue="Batch.gradlew" />
+        <item itemvalue="JAR Application.allatori-annotations.jar" />
+        <item itemvalue="JAR Application.SwiftFUP-client-3.7.1.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93026c63-49d6-413e-8362-9604e0544bba" name="Changes" comment="" />
+      <created>1767154305726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767154305726</updated>
+    </task>
+    <servers />
+  </component>
+</project>

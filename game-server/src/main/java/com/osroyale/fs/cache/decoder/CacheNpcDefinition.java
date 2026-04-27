@@ -160,6 +160,7 @@ public final class CacheNpcDefinition {
                 entityDef.actions[2] = "Dismiss";
                 break;
             case 5419:
+                entityDef.name = "Property";
                 entityDef.actions = new String[5];
                 entityDef.actions[0] = "Open";
                 entityDef.actions[3] = "Trade";

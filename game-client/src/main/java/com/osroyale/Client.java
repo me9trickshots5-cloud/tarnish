@@ -3519,6 +3519,11 @@ public class Client extends GameEngine
     }
 
     @Override
+    public int getVarbitValue(Varbits varbits) {
+        return 0;
+    }
+
+    @Override
     public void setMenuEntries(MenuEntryTwo[] entries) {
         int menuActionRow = 0;
         for (int i = 0; i < menuActionRow; i++) {
@@ -5803,9 +5808,9 @@ public class Client extends GameEngine
                         }
                     } else if (MouseHandler.saveClickX >= 404 && MouseHandler.saveClickX <= 515 && MouseHandler.saveClickY >= yOffset + 482 && MouseHandler.saveClickY <= yOffset + 505) {
                         if (Utility.staff(localPlayer.privelage)) {
-                            Utility.launchURL("www.tarnishps.com/admin");
+                            Utility.launchURL("https://discord.gg/NWG6XqRtpG");
                         } else {
-                            Utility.launchURL("www.tarnishps.com");
+                            Utility.launchURL("https://discord.gg/NWG6XqRtpG");
                         }
                     }
                 }
@@ -9197,7 +9202,7 @@ public class Client extends GameEngine
             String s2 = menuActionName[id];
             int j2 = s2.indexOf(">");
             if (j2 != -1) {
-                Utility.launchURL("www.tarnishps.com");
+                Utility.launchURL("https://discord.gg/NWG6XqRtpG");
                 System.out.println("here1");
             }
         }
@@ -12942,11 +12947,11 @@ public class Client extends GameEngine
             g.setFont(new Font("Helvetica", 1, 12));
             g.drawString("1: Delete the cache (located in user home directory, called Tarnish.Cache)", 30, k);
             k += 30;
-            g.drawString("2: Download the latest client from www.tarnishps.com/play", 30, k);
+            g.drawString("2: Download the latest client from https://discord.gg/NWG6XqRtpG", 30, k);
             k += 30;
             g.drawString("3: Make a report on our forums", 30, k);
             k += 30;
-            g.drawString("4: Contact a staff member on our discord - https://discord.gg/tarnishps/", 30, k);
+            g.drawString("4: Contact a staff member on our discord - https://discord.gg/NWG6XqRtpG", 30, k);
             k += 30;
             g.drawString("", 30, k);
         }

@@ -19,6 +19,8 @@ public enum FarmingStage {
     /** The patch is empty of weeds. */
     EMPTY;
 
+    public static FarmingStage HARVEST;
+
     /**
      * Gets the previous farming stage.
      *

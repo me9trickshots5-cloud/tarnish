@@ -34,7 +34,7 @@ public class TeleportButtonPlugin extends PluginContext {
                 return true;
             case 13035:
             case -7514:
-                TeleportHandler.open(player, TeleportType.PLAYER_KILLING);
+                TeleportHandler.open(player, TeleportType.Towns);
                 return true;
             case 13061:
             case -7510:

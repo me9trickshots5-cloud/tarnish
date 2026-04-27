@@ -18,8 +18,8 @@ public enum TeleportType {
 	/** Monster killing teleport. */
 	MONSTER_KILLING,
 	
-	/** Player killing teleport. */
-	PLAYER_KILLING,
+	/** Towns teleport. */
+	Towns,
 	
 	/** Boss killing teleport. */
 	BOSS_KILLING,

@@ -22,7 +22,7 @@ public class MagicAccuracyNpc {
 
     public static boolean successful(Mob attacker, Mob defender, CombatType style) {
         double attackRoll = MagicAccuracy.getAttackRoll(attacker);//getAttackRoll(attacker, style, null); // XXX: task needs to be grabbed in the inverse direction (player attacking NPC)
-        double defenceRoll = MagicAccuracy.getDefenceRoll(defender);//getDefenceRoll(defender, style);
+        double defenceRoll = getDefenceRoll(defender, style);//getDefenceRoll(defender, style);
 
         double chance;
         if (attackRoll > defenceRoll)

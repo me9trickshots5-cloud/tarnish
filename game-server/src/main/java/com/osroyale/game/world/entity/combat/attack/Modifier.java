@@ -143,10 +143,10 @@ public class Modifier {
 
 		double total;
 
-		total = link(chain, linked).modifyAttack(10000) / 10000.0;
+		total = link(chain, linked).modifyAttack(100) / 100.0;
 		System.out.println(total);
 
-		total = link(chain, linked).modifyAttack(10000) / 10000.0;
+		total = link(chain, linked).modifyAttack(100) / 100.0;
 		System.out.println(total);
 	}
 

@@ -13,7 +13,7 @@ public class PlayerSaveEvent extends Task {
     private static final Logger logger = LogManager.getLogger();
 
     public PlayerSaveEvent() {
-        super(1000);
+        super(30);
     }
 
     @Override

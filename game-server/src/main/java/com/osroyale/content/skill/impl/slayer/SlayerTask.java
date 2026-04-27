@@ -43,6 +43,118 @@ public enum SlayerTask implements TaskInterface<Player> {
         }
 
     },
+    BAT(new String[]{"Bat", "Giant bat"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    BIRDS(new String[]{"Bird", "Chicken"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    COW(new String[]{"Cow"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    DOGS(new String[]{"Guard dog", "Dogs", "Wolf"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    GHOST(new String[]{"Ghost"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    DWARVES(new String[]{"Dwarves"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    GOBLIN(new String[]{"Goblin", "Hobgoblin"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    ICEFIEND(new String[]{"Icefiend"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    MINOTAUR(new String[]{"Minotaur"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    RAT(new String[]{"Rats", "Giant rat"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    SCORPION(new String[]{"Scorpion"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    SKELETON(new String[]{"Skeleton"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    SPIDER(new String[]{"Spiders"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    WOLVE(new String[]{"Wolves", "Wolf"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    ZOMBIE(new String[]{"Zombie"}, 1, false, TaskDifficulty.EASY, new Position(3117, 9856), "") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
+    CHAOS_DRUID(new String[]{"Chaos druid"}, 1, false, TaskDifficulty.EASY, new Position(2930, 9845), "Taverly Dungeon") {
+        @Override
+        public boolean canAssign(Player player) {
+            return true;
+        }
+
+    },
     FIRE_GIANT(new String[]{"Fire giant"}, 5, false, TaskDifficulty.MEDIUM, new Position(2655, 9489), "Slayer Cave") {
         @Override
         public boolean canAssign(Player player) {

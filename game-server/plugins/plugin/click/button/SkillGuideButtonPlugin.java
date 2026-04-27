@@ -19,54 +19,54 @@ public class SkillGuideButtonPlugin extends PluginContext {
                 player.optionOpened = -1;
                 player.send(new SendRemoveInterface());
                 return true;
-            /*case 8654:
+            case 8654:
                 SkillGuides.openInterface(player, GuideData.ATTACK.ordinal(), 0, open);
                 return true;
             case 8655:
                 SkillGuides.openInterface(player, GuideData.HITPOINTS.ordinal(), 0, open);
-                return true;*/
+                return true;
             case 8656:
                 SkillGuides.openInterface(player, GuideData.MINING.ordinal(), 0, open);
                 return true;
-        /*    case 8657:
+            case 8657:
                 SkillGuides.openInterface(player, GuideData.STRENGTH.ordinal(), 0, open);
-                return true;*/
+                return true;
             case 8658:
                 SkillGuides.openInterface(player, GuideData.AGILITY.ordinal(), 0, open);
                 return true;
             case 8659:
                 SkillGuides.openInterface(player, GuideData.SMITHING.ordinal(), 0, open);
                 return true;
-         /*   case 8660:
+            case 8660:
                 SkillGuides.openInterface(player, GuideData.DEFENCE.ordinal(), 0, open);
-                return true;*/
+                return true;
             case 8661:
                 SkillGuides.openInterface(player, GuideData.HERBLORE.ordinal(), 0, open);
                 return true;
             case 8662:
                 SkillGuides.openInterface(player, GuideData.FISHING.ordinal(), 0, open);
                 return true;
-           /* case 8663:
+            case 8663:
                 SkillGuides.openInterface(player, GuideData.RANGED.ordinal(), 0, open);
-                return true;*/
+                return true;
             case 8664:
                 SkillGuides.openInterface(player, GuideData.THIEVING.ordinal(), 0, open);
                 return true;
             case 8665:
                 SkillGuides.openInterface(player, GuideData.COOKING.ordinal(), 0, open);
                 return true;
-          /*  case 8666:
+            case 8666:
                 SkillGuides.openInterface(player, GuideData.PRAYER.ordinal(), 0, open);
-                return true;*/
+                return true;
             case 8667:
                 SkillGuides.openInterface(player, GuideData.CRAFTING.ordinal(), 0, open);
                 return true;
             case 8668:
                 SkillGuides.openInterface(player, GuideData.FIREMAKING.ordinal(), 0, open);
                 return true;
-           /* case 8669:
+            case 8669:
                 SkillGuides.openInterface(player, GuideData.MAGIC.ordinal(), 0, open);
-                return true;*/
+                return true;
             case 8670:
                 SkillGuides.openInterface(player, GuideData.FLETCHING.ordinal(), 0, open);
                 return true;

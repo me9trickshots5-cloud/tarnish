@@ -9,17 +9,19 @@ import com.osroyale.game.world.object.CustomGameObject;
 import com.osroyale.game.world.object.GameObject;
 import com.osroyale.game.world.position.Position;
 import com.osroyale.util.Utility;
+import org.jetbrains.annotations.Contract;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class TrapManager {
 
-    public static List<Trap> traps = new CopyOnWriteArrayList<Trap>();
+    public static List<Trap> traps = new CopyOnWriteArrayList<>();
 
-    public static List<Npc> HUNTER_NPC_LIST = new CopyOnWriteArrayList<Npc>();
+    public static List<Npc> HUNTER_NPC_LIST = new CopyOnWriteArrayList<>();
 
-    private static final int[] exps = {3254, 3744, 6041, 8811, 10272};
+    private static final int[] exps = {3254, 3744, 6041, 8811, 10272, 12555, 14521, 15869, 17822};
+    private static int npc;
 
     public static void register(final Trap trap) {
         trap.getGameObject().register();
@@ -87,7 +89,7 @@ public class TrapManager {
     public static boolean goodArea(Player client) {
         int x = client.getPosition().getX();
         int y = client.getPosition().getY();
-        return x >= 2758 && x <= 2965 && y >= 2880 && y <= 2954 || x >= 2300 && x <= 2320 && y >= 9790 && y <= 9800;
+        return x >= 2758 && x <= 2965 && y >= 2880 && y <= 2954 || x >= 1472 && x <= 1661 && y >= 3400 && y <= 3518;
     }
 
     public static int getMaximumTraps(Player client) {
@@ -108,6 +110,12 @@ public class TrapManager {
                 return 9375;
             case 5548:
                 return 9348;
+            case 2910:
+                return 9386;
+            case 2911:
+                return 9390;
+            case 2912:
+                return 2025;
         }
         return 0;
     }
@@ -173,23 +181,25 @@ public class TrapManager {
 
     public static int requiredLevel(int npcType) {
         int levelToReturn = 1;
-        if (npcType == 5072)
+        if (npcType == 5551)
             levelToReturn = 19;
-        else if (npcType == 5074)
+        else if (npcType == 5548)
             levelToReturn = 11;
-        else if (npcType == 5075)
+        else if (npcType == 5550)
             levelToReturn = 5;
-        else if (npcType == 5076)
+        else if (npcType == 5552)
             levelToReturn = 9;
-        else if (npcType == 5079)
+        else if (npcType == 2910)
             levelToReturn = 53;
-        else if (npcType == 5080)
+        else if (npcType == 2911)
             levelToReturn = 63;
+        else if (npcType == 2912)
+            levelToReturn = 73;
         return levelToReturn;
     }
 
     public static boolean isHunterNPC(int npc) {
-        return npc >= 5072 && npc <= 5080;
+        return npc >= 5548 && npc <= 5552 || npc >= 2910 && npc <= 2912;
     }
 
     public static void lootTrap(Player client, GameObject trap) {
@@ -201,43 +211,51 @@ public class TrapManager {
                     if (theTrap.getOwner() == client) {
                         if (theTrap instanceof SnareTrap) {
                             client.inventory.add(10006, 1);
-                            client.inventory.add(526, 1);
-                            if (theTrap.getGameObject().getId() == 19180) {
+                            if (theTrap.getGameObject().getId() == 9373) {
                                 client.inventory.add(10088, 20 + Utility.random(30));
                                 client.inventory.add(9978, 1);
+                                client.inventory.add(526, 1);
                                 client.message("You've succesfully caught a crimson swift.");
                                 client.skills.addExperience(Skill.HUNTER, exps[0]);
-                            } else if (theTrap.getGameObject().getId() == 19184) {
+                            } else if (theTrap.getGameObject().getId() == 9377) {
                                 client.inventory.add(10090, 20 + Utility.random(30));
                                 client.inventory.add(9978, 1);
+                                client.inventory.add(526, 1);
                                 client.message("You've succesfully caught a Golden Warbler.");
                                 client.skills.addExperience(Skill.HUNTER, exps[1]);
-                            } else if (theTrap.getGameObject().getId() == 19186) {
+                            } else if (theTrap.getGameObject().getId() == 9379) {
                                 client.inventory.add(10091, 20 + Utility.random(50));
                                 client.inventory.add(9978, 1);
+                                client.inventory.add(526, 1);
                                 client.message("You've succesfully caught a Copper Longtail.");
                                 client.skills.addExperience(Skill.HUNTER, exps[2]);
-                            } else if (theTrap.getGameObject().getId() == 19182) {
+                            } else if (theTrap.getGameObject().getId() == 9375) {
                                 client.inventory.add(10089, 20 + Utility.random(30));
                                 client.inventory.add(9978, 1);
+                                client.inventory.add(526, 1);
                                 client.message("You've succesfully caught a Cerulean Twitch.");
                                 client.skills.addExperience(Skill.HUNTER, (exps[3]));
-                            } else if (theTrap.getGameObject().getId() == 19178) {
+                            } else if (theTrap.getGameObject().getId() == 9348) {
                                 client.inventory.add(10087, 20 + Utility.random(30));
                                 client.inventory.add(9978, 1);
+                                client.inventory.add(526, 1);
                                 client.message("You've succesfully caught a Tropical Wagtail.");
                                 client.skills.addExperience(Skill.HUNTER, exps[4]);
                             }
                         } else if (theTrap instanceof BoxTrap) {
                             client.inventory.add(10008, 1);
-                            if (theTrap.getGameObject().getId() == 19191) {
+                            if (theTrap.getGameObject().getId() == 9386) {
                                 client.inventory.add(10033, 1);
                                 client.skills.addExperience(Skill.HUNTER, exps[6]);
                                 client.message("You've succesfully caught a chinchompa!");
-                            } else if (theTrap.getGameObject().getId() == 19189) {
+                            } else if (theTrap.getGameObject().getId() == 9390) {
                                 client.inventory.add(10034, 1);
                                 client.skills.addExperience(Skill.HUNTER, exps[7]);
                                 client.message("You've succesfully caught a red chinchompa!");
+                            } else if (theTrap.getGameObject().getId() == 2025) {
+                                client.inventory.add(11959, 1);
+                                client.skills.addExperience(Skill.HUNTER, exps[8]);
+                                client.message("You've succesfully caught a Black chinchompa!");
                             }
                         }
                         deregister(theTrap);
@@ -292,5 +310,13 @@ public class TrapManager {
                 }
             }
         }
+    }
+
+    public static int getNpc() {
+        return npc;
+    }
+
+    public static void setNpc(int npc) {
+        TrapManager.npc = npc;
     }
 }

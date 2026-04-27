@@ -115,7 +115,7 @@ tasks {
     }
 
     shadowJar {
-        archiveBaseName.set("Tarnish")
+        archiveBaseName.set("Nomads Paradise RSPS")
         archiveClassifier.set("")
         archiveVersion.set("")
         isZip64 = true

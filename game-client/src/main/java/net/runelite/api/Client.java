@@ -2422,4 +2422,5 @@ public interface Client extends GameEngine
 	 */
 	void setVarcStrValue(@VarCStr int var, String value);
 
+    int getVarbitValue(Varbits varbits);
 }

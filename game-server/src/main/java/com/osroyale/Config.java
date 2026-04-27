@@ -24,10 +24,10 @@ import java.util.Arrays;
 public final class Config {
 
     /** The latest announcement thread link. */
-    public static final String LATEST_ANNOUNCEMENT_THREAD = "https://tarnishps.com/";
+    public static final String LATEST_ANNOUNCEMENT_THREAD = "Discord";
 
     /** The latest update thread link. */
-    public static final String LATEST_UPDATE_THREAD = "https://tarnishps.com/";
+    public static final String LATEST_UPDATE_THREAD = "Discord";
 
     /** The welcome marquee. */
     public static final String[] WELCOME_MARQUEE = {
@@ -46,7 +46,7 @@ public final class Config {
     /** The welcome announcement. */
     public static final String[] WELCOME_ANNOUNCEMENT = {
             "Welcome!",
-            "Tarnish is currently in it's",
+            "Nomads Paradise is currently in it's",
             "early stages. We are only",
             "100 players until official",
             "launch!"
@@ -223,7 +223,7 @@ public final class Config {
 
     /** Messages that are sent periodically to all players. */
     public static final String[] MESSAGES = {
-            "Our website is located at: http://www.tarnishps.com/",
+            "Our Discord is located at: https://discord.gg/NWG6XqRtpG",
             "Feel free to join the (help) clan channel",
             "Add more security to your account by setting a bank pin.",
             "Have any ideas on how we could improve our gameplay? Post on forums!",
@@ -397,71 +397,36 @@ public final class Config {
     }
 
     /** Starter bank */
-    public final static int[] STARTER_BANK_AMOUNT = { 2, 8, 21, 11, 48, 9, 0, 0, 0, 0, };
+    public final static int[] STARTER_BANK_AMOUNT = { 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, };
     public final static Item[] STARTER_BANK = {
-           new Item(995, 500000), new Item(8013, 2500), new Item(1704, 1000), new Item(1725, 1000), new Item(1731, 1000),
-            new Item(2550, 1000), new Item(7458, 1000), new Item(7460, 1000), new Item(7461, 1000), new Item(3105, 1000),
-            new Item(4587, 1000), new Item(1305, 1000), new Item(1377, 1000), new Item(1434, 1000), new Item(5698, 1000),
-            new Item(8850, 1000), new Item(10828, 1000), new Item(3751, 1000), new Item(1163, 1000), new Item(1127, 1000),
-            new Item(1079, 1000), new Item(1093, 1000), new Item(1201, 1000), new Item(4131, 1000), new Item(1153, 1000),
-            new Item(1115, 1000), new Item(1067, 1000), new Item(1081, 1000), new Item(1191, 1000), new Item(544, 1000),
-            new Item(542, 1000), new Item(861, 1000), new Item(892, 100000), new Item(9185, 1000), new Item(9242, 100000),
-            new Item(9243, 100000), new Item(9244, 100000), new Item(10499, 1000), new Item(10498, 1000), new Item(2497, 1000),
-            new Item(2491, 1000), new Item(2503, 1000), new Item(4675, 1000), new Item(1387, 1000), new Item(1383, 1000),
-            new Item(1381, 1000), new Item(556, 100000), new Item(557, 100000), new Item(554, 100000), new Item(555, 100000),
-            new Item(558, 100000), new Item(559, 100000), new Item(560, 100000), new Item(561, 100000), new Item(562, 100000),
-            new Item(563, 100000), new Item(564, 100000), new Item(565, 100000), new Item(566, 100000), new Item(9075, 100000),
-            new Item(21880, 100000), new Item(3841, 1000), new Item(2414, 1000), new Item(3843, 1000), new Item(2413, 1000),
-            new Item(3839, 1000), new Item(2412, 1000), new Item(3749, 1000), new Item(3755, 1000), new Item(4089, 1000),
-            new Item(4091, 1000), new Item(4093, 1000), new Item(4095, 1000), new Item(4097, 1000), new Item(4099, 1000),
-            new Item(4101, 1000), new Item(4103, 1000), new Item(4105, 1000), new Item(4107, 1000), new Item(4109, 1000),
-            new Item(4111, 1000), new Item(4113, 1000), new Item(4115, 1000), new Item(4117, 1000), new Item(6109, 1000),
-            new Item(6107, 1000), new Item(6108, 1000), new Item(6111, 1000), new Item(6110, 1000), new Item(6106, 1000),
-            new Item(391, 1000), new Item(385, 1000), new Item(3144, 1000), new Item(2436, 1000), new Item(2440, 1000),
-            new Item(2442, 1000), new Item(2444, 1000), new Item(6685, 1000), new Item(3024, 1000),
+            new Item(995, 150000),
+            new Item(333, 500),
+            new Item(1067, 5),
+            new Item(1115, 5),
+            new Item(1153, 5),
+            new Item(1175, 5),
+            new Item(1323, 5),
+            new Item(4121, 5),
+            new Item(1349, 5),
+            new Item(1267, 5),
+            new Item(2347, 5),
+            new Item(946, 5),
     };
 
     /** TEMP VARS - WILL BE DELETED AFTER BETA IS FINISHED */
-    public final static int[] LEET_BANK_AMOUNTS = {7, 46, 19, 42, 41, 15, 21, 4, 0, 0,};
+    public final static int[] LEET_BANK_AMOUNTS = { 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, };
     public final static Item[] LEET_BANK_ITEMS = {
-            new Item(995, 10000), new Item(11665, 10000), new Item(11663, 10000), new Item(11664, 10000), new Item(8840, 10000),
-            new Item(8839, 10000), new Item(8842, 10000), new Item(4151, 10000), new Item(11802, 10000), new Item(11804, 10000),
-            new Item(11806, 10000), new Item(11808, 10000), new Item(13652, 10000), new Item(13576, 10000), new Item(4587, 10000),
-            new Item(1305, 10000), new Item(7158, 10000), new Item(1434, 10000), new Item(5698, 10000), new Item(1215, 10000),
-            new Item(11840, 10000), new Item(6585, 10000), new Item(12954, 10000), new Item(11283, 10000), new Item(10551, 10000),
-            new Item(4153, 10000), new Item(10828, 10000), new Item(3751, 10000), new Item(2550, 10000), new Item(3105, 10000),
-            new Item(1725, 10000), new Item(1704, 10000), new Item(1731, 10000), new Item(1163, 10000), new Item(1127, 10000),
-            new Item(1079, 10000), new Item(1201, 10000), new Item(7460, 10000), new Item(4131, 10000), new Item(11832, 10000),
-            new Item(11834, 10000), new Item(11836, 10000), new Item(21015, 10000), new Item(6570, 10000), new Item(13239, 10000),
-            new Item(11773, 10000), new Item(12931, 10000), new Item(13197, 10000), new Item(13199, 10000), new Item(19639, 10000),
-            new Item(19643, 10000), new Item(19647, 10000), new Item(11772, 10000), new Item(861, 10000), new Item(892, 10000),
-            new Item(9185, 10000), new Item(9244, 10000), new Item(868, 10000), new Item(811, 10000), new Item(10498, 10000),
-            new Item(10499, 10000), new Item(3749, 10000), new Item(2503, 10000), new Item(2497, 10000), new Item(2491, 10000),
-            new Item(19481, 10000), new Item(11785, 10000), new Item(11826, 10000), new Item(11828, 10000), new Item(11830, 10000),
-            new Item(13237, 10000), new Item(11771, 10000), new Item(4675, 10000), new Item(12904, 10000), new Item(11791, 10000),
-            new Item(11770, 10000), new Item(13235, 10000), new Item(3755, 10000), new Item(1540, 10000), new Item(6889, 10000),
-            new Item(2412, 10000), new Item(3840, 10000), new Item(2413, 10000), new Item(3844, 10000), new Item(2414, 10000),
-            new Item(3842, 10000), new Item(4089, 10000), new Item(4091, 10000), new Item(4093, 10000), new Item(4095, 10000),
-            new Item(4097, 10000), new Item(4099, 10000), new Item(4101, 10000), new Item(4103, 10000), new Item(4105, 10000),
-            new Item(4107, 10000), new Item(4109, 10000), new Item(4111, 10000), new Item(4113, 10000), new Item(4115, 10000),
-            new Item(4117, 10000), new Item(554, 10000), new Item(555, 10000), new Item(556, 10000), new Item(557, 10000),
-            new Item(558, 10000), new Item(559, 10000), new Item(560, 10000), new Item(561, 10000), new Item(562, 10000),
-            new Item(563, 10000), new Item(564, 10000), new Item(565, 10000), new Item(9075, 10000), new Item(6685, 10000),
-            new Item(3024, 10000), new Item(2436, 10000), new Item(2440, 10000), new Item(2442, 10000), new Item(2444, 10000),
-            new Item(3040, 10000), new Item(2434, 10000), new Item(2448, 10000), new Item(6687, 10000), new Item(3026, 10000),
-            new Item(145, 10000), new Item(157, 10000), new Item(163, 10000), new Item(169, 10000), new Item(3042, 10000),
-            new Item(139, 10000), new Item(181, 10000), new Item(6689, 10000), new Item(3028, 10000), new Item(147, 10000),
-            new Item(159, 10000), new Item(165, 10000), new Item(171, 10000), new Item(3044, 10000), new Item(141, 10000),
-            new Item(183, 10000), new Item(6691, 10000), new Item(3030, 10000), new Item(149, 10000), new Item(161, 10000),
-            new Item(167, 10000), new Item(173, 10000), new Item(3046, 10000), new Item(143, 10000), new Item(185, 10000),
-            new Item(12695, 10000), new Item(3144, 10000), new Item(391, 10000), new Item(7060, 10000), new Item(385, 10000),
-            new Item(4315, 10000), new Item(4317, 10000), new Item(4319, 10000), new Item(4335, 10000), new Item(4337, 10000),
-            new Item(4339, 10000), new Item(4355, 10000), new Item(4357, 10000), new Item(4359, 10000), new Item(4375, 10000),
-            new Item(4377, 10000), new Item(4379, 10000), new Item(4395, 10000), new Item(4397, 10000), new Item(4399, 10000),
-            new Item(4716, 10000), new Item(4718, 10000), new Item(4720, 10000), new Item(4722, 10000), new Item(4745, 10000),
-            new Item(4747, 10000), new Item(4749, 10000), new Item(4751, 10000), new Item(4732, 10000), new Item(4734, 10000),
-            new Item(4736, 10000), new Item(4738, 10000), new Item(4740, 10000), new Item(4708, 10000), new Item(4710, 10000),
-            new Item(4712, 10000), new Item(4714, 10000), new Item(4753, 10000), new Item(4755, 10000), new Item(4757, 10000),
-            new Item(4759, 10000), new Item(12829, 10000), new Item(12821, 10000), new Item(12817, 10000), new Item(12825, 10000),
+            new Item(995, 150000),
+            new Item(1067, 5),
+            new Item(1115, 5),
+            new Item(1153, 5),
+            new Item(1175, 5),
+            new Item(1323, 5),
+            new Item(4121, 5),
+            new Item(333, 500),
+            new Item(1349, 5),
+            new Item(1267, 5),
+            new Item(2347, 5),
+            new Item(946, 5),
     };
 }

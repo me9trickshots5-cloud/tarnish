@@ -17,6 +17,7 @@ public enum FarmingState {
     DISEASED,
 
     /** The patch is dead. */
-    DEAD
+    DEAD;
 
+    public static FarmingStage HARVEST;
 }

@@ -135,6 +135,7 @@ public enum GuideData {
                     new Option(9181, 36, "Mithril crossbow\\nAmmo: Bolts up to mithril"),
                     new Option(9183, 46, "Adamant crossbow\\nAmmo: Bolts up to adamant"),
                     new Option(9185, 61, "Rune crossbow\\nAmmo: Bolts up to runite"),
+                    new Option(11785, 70, "Dragon crossbow\\nAmmo: Bolts up to runite"),
                     new Option(11785, 70, "Armadyl crossbow\\nAmmo: Bolts up to runite"),
                     new Option(4734, 70, "Karils crossbow\\nAmmo: Bolt racks")
             ),

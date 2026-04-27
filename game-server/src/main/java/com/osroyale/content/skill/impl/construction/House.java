@@ -102,7 +102,7 @@ public class House {
             player.interfaceManager.close();
             player.send(new SendMessage("Welcome to your house! To start building please click on the world map to enter the", MessageColor.DARK_GREEN));
             player.send(new SendMessage("Construction Builder itemcontainer. To leave your house please click on the portal.", MessageColor.DARK_GREEN));
-            player.send(new SendString("[CONSTRUCTION_MAP]", 0));
+            player.send(new SendString("[CONSTRUCTION_MAP]", 47500));
         });
 
         inside = true;

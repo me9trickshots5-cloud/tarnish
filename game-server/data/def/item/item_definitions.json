@@ -123153,11 +123153,11 @@
     "equipment-slot": "BODY",
     "attack-magic": -30,
     "attack-ranged": -10,
-    "defence-stab": 109,
-    "defence-slash": 107,
-    "defence-crush": 97,
+    "defence-stab": 222,
+    "defence-slash": 222,
+    "defence-crush": 222,
     "defence-magic": -6,
-    "defence-ranged": 106
+    "defence-ranged": 222
   },
   {
     "id": 21893,

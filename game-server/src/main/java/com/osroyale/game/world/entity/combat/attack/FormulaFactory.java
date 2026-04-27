@@ -92,7 +92,7 @@ public final class FormulaFactory {
     }
 
     private static boolean isAccurate(Mob attacker, Mob defender, CombatType type, CombatStrategy<? super Mob> strategy) {
-        if (strategy != null && strategy.isAlwaysAccurate()) {
+        if (strategy != null) {
             return true;
         }
 
@@ -122,8 +122,8 @@ public final class FormulaFactory {
     }
 
     public static int rollDefensive(Mob attacker, Mob defender, FormulaModifier<Mob> formula) {
-        int roll = formula.modifyDefensive(attacker, defender, 0);
-        int bonus = formula.modifyDefensiveBonus(attacker, defender, 0);
+        int roll = formula.modifyDefensive(attacker, defender, 10);
+        int bonus = formula.modifyDefensiveBonus(attacker, defender, 64);
         return attacker.getCombat().modifyDefensive(defender, roll * (bonus + 64));
     }
 
@@ -151,7 +151,7 @@ public final class FormulaFactory {
     }
 
     private static int maxHit(int level, int bonus) {
-        return (320 + level * (bonus + 64)) / 640;
+        return (level * (bonus + 64)) / 640;
     }
 
 }

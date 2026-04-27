@@ -24,6 +24,8 @@
  */
 package net.runelite.api;
 
+import net.runelite.api.widgets.Widget;
+
 import java.util.function.Consumer;
 
 /**
@@ -110,4 +112,6 @@ public interface MenuEntry
 
 	@Deprecated
 	MenuAction getMenuAction();
+
+    Widget getWidget();
 }

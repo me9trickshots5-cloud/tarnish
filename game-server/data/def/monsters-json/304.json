@@ -169,7 +169,7 @@
             "name": "Grimy harralander",
             "members": true,
             "quantity": "1",
-            "noted": false,
+            "noted": true,
             "rarity": 0.03333333333333333,
             "rolls": 1
         },
@@ -178,7 +178,7 @@
             "name": "Grimy ranarr weed",
             "members": true,
             "quantity": "1",
-            "noted": false,
+            "noted": true,
             "rarity": 0.02617801047120419,
             "rolls": 1
         },
@@ -187,7 +187,7 @@
             "name": "Grimy irit leaf",
             "members": true,
             "quantity": "1",
-            "noted": false,
+            "noted": true,
             "rarity": 0.01904761904761905,
             "rolls": 1
         },
@@ -196,7 +196,7 @@
             "name": "Grimy avantoe",
             "members": true,
             "quantity": "1",
-            "noted": false,
+            "noted": true,
             "rarity": 0.014285714285714285,
             "rolls": 1
         },
@@ -205,7 +205,7 @@
             "name": "Grimy kwuarm",
             "members": true,
             "quantity": "1",
-            "noted": false,
+            "noted": true,
             "rarity": 0.011904761904761904,
             "rolls": 1
         },
@@ -214,7 +214,7 @@
             "name": "Grimy cadantine",
             "members": true,
             "quantity": "1",
-            "noted": false,
+            "noted": true,
             "rarity": 0.009523809523809525,
             "rolls": 1
         },
@@ -223,7 +223,7 @@
             "name": "Grimy lantadyme",
             "members": true,
             "quantity": "1",
-            "noted": false,
+            "noted": true,
             "rarity": 0.007142857142857143,
             "rolls": 1
         },
@@ -232,7 +232,7 @@
             "name": "Grimy dwarf weed",
             "members": true,
             "quantity": "1",
-            "noted": false,
+            "noted": true,
             "rarity": 0.007142857142857143,
             "rolls": 1
         },
@@ -241,7 +241,7 @@
             "name": "White berries",
             "members": true,
             "quantity": "1",
-            "noted": false,
+            "noted": true,
             "rarity": 0.0390625,
             "rolls": 1
         },
@@ -250,7 +250,7 @@
             "name": "Snape grass",
             "members": true,
             "quantity": "1",
-            "noted": false,
+            "noted": true,
             "rarity": 0.0078125,
             "rolls": 1
         },
@@ -276,27 +276,27 @@
             "id": 995,
             "name": "Coins",
             "members": false,
-            "quantity": "3",
+            "quantity": "32584",
             "noted": false,
-            "rarity": 0.0390625,
+            "rarity": 0.0160625,
             "rolls": 1
         },
         {
             "id": 995,
             "name": "Coins",
             "members": false,
-            "quantity": "24",
+            "quantity": "58141",
             "noted": false,
-            "rarity": 0.0234375,
+            "rarity": 0.0204375,
             "rolls": 1
         },
         {
             "id": 995,
             "name": "Coins",
             "members": false,
-            "quantity": "10",
+            "quantity": "41522",
             "noted": false,
-            "rarity": 0.0234375,
+            "rarity": 0.0214375,
             "rolls": 1
         },
         {
@@ -332,7 +332,7 @@
             "members": true,
             "quantity": "1",
             "noted": false,
-            "rarity": 0.002,
+            "rarity": 0.15255,
             "rolls": 1
         },
         {
@@ -367,7 +367,7 @@
             "name": "Grimy guam leaf",
             "members": true,
             "quantity": "1",
-            "noted": false,
+            "noted": true,
             "rarity": 0.07633587786259542,
             "rolls": 1
         },
@@ -376,7 +376,7 @@
             "name": "Grimy marrentill",
             "members": true,
             "quantity": "1",
-            "noted": false,
+            "noted": true,
             "rarity": 0.05714285714285714,
             "rolls": 1
         },
@@ -385,9 +385,45 @@
             "name": "Grimy tarromin",
             "members": true,
             "quantity": "1",
-            "noted": false,
+            "noted": true,
             "rarity": 0.04291845493562232,
             "rolls": 1
-        }
+        },
+      {
+        "id": 23611,
+        "name": "Armadyl Crossbow",
+        "members": true,
+        "quantity": "1",
+        "noted": true,
+        "rarity": 0.00191845493562232,
+        "rolls": 1
+      },
+      {
+        "id": 23613,
+        "name": "Staff of the Dead",
+        "members": true,
+        "quantity": "1",
+        "noted": true,
+        "rarity": 0.00191845493562232,
+        "rolls": 1
+      },
+      {
+        "id": 11905,
+        "name": "Trident of the seas Full",
+        "members": true,
+        "quantity": "1",
+        "noted": true,
+        "rarity": 0.00191845493562232,
+        "rolls": 1
+      },
+      {
+        "id": 12899,
+        "name": "Trident of the swamp",
+        "members": true,
+        "quantity": "1",
+        "noted": true,
+        "rarity": 0.00191845493562232,
+        "rolls": 1
+      }
     ]
 }

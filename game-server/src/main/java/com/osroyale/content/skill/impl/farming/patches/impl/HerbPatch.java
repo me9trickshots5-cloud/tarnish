@@ -17,7 +17,7 @@ import com.osroyale.game.world.entity.mob.player.Player;
 public class HerbPatch extends DiseasablePatch {
 
     /** The minimum amount of produce to harvest, */
-    private static final int START_HARVEST_AMOUNT = 3;
+    private static final int START_HARVEST_AMOUNT = 6;
 
     /** The maximum amount of produce to harvest, */
     private static final int END_HARVEST_AMOUNT = 18;
@@ -52,13 +52,5 @@ public class HerbPatch extends DiseasablePatch {
     protected int animation() {
         return FarmingConstants.PICKING_HERB_ANIM;
     }
-
-   /* @Override
-    public int getConfig() {
-        if (isDead()) {
-            return growth + 169;
-        }
-        return super.getConfig();
-    }*/
 
 }

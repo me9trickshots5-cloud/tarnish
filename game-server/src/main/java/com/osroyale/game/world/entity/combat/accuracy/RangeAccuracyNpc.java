@@ -23,8 +23,8 @@ public class RangeAccuracyNpc {
     public static final SecureRandom srand = new SecureRandom();
 
     public static boolean successful(Mob attacker, Mob defender, CombatType style) {
-        double attackBonus = RangeAccuracy.getAttackRoll(attacker);//getAttackRoll(attacker, defender, style);
-        double defenceBonus = RangeAccuracy.getDefenceRoll(defender);//getDefenceRoll(defender, style);
+        double attackBonus = RangeAccuracy.getAttackRoll(attacker); //getAttackRoll(attacker, defender, style);
+        double defenceBonus = RangeAccuracy.getDefenceRoll(defender); //getDefenceRoll(defender, style);
         double successfulRoll;
         double selectedChance = srand.nextDouble();
 

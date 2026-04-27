@@ -21,11 +21,7 @@ public abstract class DiseasablePatch extends HarvestablePatch {
             return;
         }
 
-      /*  if (isDiseased()) {
-            setDead();
-        } else if (!fullyGrown) {
-            handleDisease();
-        }*/
+
     }
 
     protected void resetPatch() {
@@ -48,17 +44,6 @@ public abstract class DiseasablePatch extends HarvestablePatch {
         }
         return super.itemOnObject(item, index);
     }
-
-   /* public boolean rollDisease() {
-        return growth > 0 && !watched && !isWatered() && RandomUtils.success(compost.getProtection());
-    }*/
-
-    /*private void handleDisease() {
-        if (rollDisease()) {
-            setDiseased();
-            player.message("One of your crops is diseased!");
-        }
-    }*/
 
     private void curePlant(int index) {
         if (player.locking.locked()) {
